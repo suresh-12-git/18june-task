@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <fieldset><legend align="center">UPSC OTR FORM</legend>
+        <table border="1" cellpadding="30">
+            <tr>
+
+                <td>Candiate name</td>
+                <td>
+                    
+                    <input type="text" placeholder="First name" required>&nbsp;
+                    
+                    <input type="text" placeholder="Last name" required>
+
+
+                </td>
+            </tr>
+            <tr>
+
+                <td>Father's name</td>
+                <td>
+                    
+                    <input type="text"  placeholder="First name" required>&nbsp;
+                    
+                    <input type="text"  placeholder="Last name" required>
+                    <p><b>[note:1]</b>please do not use any prefix such as Shri./Mr./Miss./Etc.. </p>
+                    <p><b>[note:2]</b>Candiate who has single parent may fill either mother's name or father's name  in both the fileds</p>
+                </td>
+            </tr>
+            <tr>
+                <td>Mother's name</td>
+                <td>
+                    
+                    <input type="text"  placeholder="First name" required>&nbsp;
+                    
+                    <input type="text"  placeholder="Last name" required>
+                    <p><b>[note:1]</b>please do not use any prefix such as Shri./Mr./Miss./Etc.. </p>
+                    <p><b>[note:2]</b>Candiate who has single parent may fill either mother's name or father's name  in both the fileds</p>
+                </td>
+                
+            </tr>
+            <tr>
+
+                <td>Gender</td>
+                <td>
+                <input type="text" list="data" >
+                <datalist id="data">
+                    <option value="Male">
+                    <option value="Female">
+                    <option value="Others">
+
+                </datalist>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                 Email
+                </td>
+                <td>
+               <input type="email" name="emali" placeholder="Enter your mail" required>
+                </td>
+            </tr>
+            <tr>
+                <td>Mobile number</td>
+
+                <td>
+                    <input type="text" list="number">
+                    <datalist id="number">
+                    <option value="+91">
+                    <option value="+20">
+                    <option value="+02">
+                    </datalist>
+                    
+                </td>
+            </tr>
+             <td>Date of birth</td>
+             <td>
+                <input type="date" >
+                <p><b>[note:1]</b>please enter your date of birth as per your aadhar</p>
+             </td>
+
+             <tr>
+                <td>Adress</td>
+                <td>
+                    <input type="text" placeholder="H-no:">
+                    <input type="text" placeholder="District">
+                    <input type="text" placeholder="State">
+                    <input type="text" placeholder="Pincode">
+                </td>
+             </tr>
+             <tr>
+                <td>Eduction details</td>
+                <td>
+                    <input type="text" list="degree">
+                    <datalist id="degree">
+                    <option value="B.Tech">
+                    <option value="MBA">
+                    <option value="Post graduation">
+                    <option value="MSC">    
+                
+                    </datalist>
+                    <input type="text" placeholder="Year of pass">
+                    <input type="text" placeholder="College name">
+
+                </td>
+             </tr>
+             <tr>
+                <th colspan="2"align=center>LOGIN </th>
+             </tr>
+             <tr>
+                <td>Select mode for login</td>
+                <label for="radio"></label>
+            <td>
+                <input type="radio" name="radio" id="radio">Email
+                <input type="radio" name="radio" id="radio">Mobile
+            </td>
+             </tr>
+             <tr>
+                <td>Enter your email/password</td>
+                <td>
+                    <input type="email" placeholder="Enter your email"><br><br>
+                    <input type="password" placeholder="Enter your password"><br><br>
+                </td>
+             </tr>
+             <tr>
+                <td>Verification code/OTP</td>
+                <td>
+                    <input type="password" placeholder="Enter your code">&nbsp;&nbsp;<input type="button" value="Resend"><br><br><br>
+    
+                </td>
+             </tr>
+
+             <tr>
+                <td colspan="2" align="center">
+                    <input type="button" value="Sumbit">
+                </td>
+             </tr>
+             
+        </table>
+    </fieldset>
+    </form>
+</body>
+</html>
